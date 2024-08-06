@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+font-family: system-ui;
+}
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100VH;
+}
+.social-card{
+    background-color: #313131;
+    padding: 20px;
+    border-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.social-card img{
+    border-radius: 100px;
+    text-align: center;
+}
+.card-body h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.card-body > p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: yellow;
+}
+.min-card-own p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.social-link{
+    background-color: #1d1c1c;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+.social-link a{
+text-decoration: none;
+color: #fff;
+}
+.active{
+    background-color: yellow;
+}
